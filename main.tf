@@ -42,11 +42,3 @@ resource "aws_instance" "instance-1" {
   }
 }
 
-resource "aws_s3_bucket" "kandugula-pooja" {
-  bucket = "kandugula-pooja"
-
-  tags = {
-    Name        = "kandugula-pooja"
-    Environment = "Dev"
-  }
-}
