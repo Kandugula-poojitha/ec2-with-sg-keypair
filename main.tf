@@ -2,7 +2,7 @@
 resource "aws_security_group" "security-group1" {
 
   name        = "security-group1"
-  description = "Allow inbound traffic on ports 22 and 80"
+  description = "Allow inbound traffic on ports 22 and 80 and outbound for all traffic"
   ingress {
     from_port   = 22
     to_port     = 22
